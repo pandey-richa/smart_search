@@ -1,0 +1,10 @@
+/* globals.css */
+body {
+  margin: auto;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.main-container {
+  padding: 20px;
+}
