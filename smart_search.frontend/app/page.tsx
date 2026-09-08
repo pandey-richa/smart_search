@@ -1,14 +1,9 @@
-import SearchFilter from "./components/SearchFilter/SearchFilter";
-import ProductCards from "./components/ProductCards/ProductCards";
-
 export default function Home() {
   return (
-    <>
-    <div className="main-container">
-      <SearchFilter />
-      <ProductCards />
-    </div>
-    </>
+    <main className="main-container">
+      <h1>Welcome to Smart Search Playground</h1>
+      <p>Explore smart search capabilities powered by Elasticsearch</p>
+    </main>
   );
 }
  
